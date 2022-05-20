@@ -10,6 +10,6 @@ terraform {
 provider "google" {
   credentials = file("./terraform-sa.json")
   project = "iteindia-playground"
-  region  = "us-central1"
-  zone    = "us-central1-c"
+  region  = "us-west1"
+  zone    = "us-west1-c"
 }
